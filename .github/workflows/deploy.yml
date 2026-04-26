@@ -1,0 +1,39 @@
+name: Deploy Docker App to EC2
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to EC2
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to EC2 via SSH
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          script: |
+            cd ~/aws-docker-ec2
+            git pull origin main
+            docker stop flask-container 2>/dev/null || true
+            docker rm flask-container 2>/dev/null || true
+            docker build -t flask-app .
+            docker run -d \
+              --name flask-container \
+              --restart unless-stopped \
+              -p 5000:5000 \
+              flask-app
+            sleep 3
+            curl -f http://localhost:5000/health
+
+      - name: Deployment complete
+        run: echo "Deployed successfully at $(date)"
