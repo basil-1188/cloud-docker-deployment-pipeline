@@ -95,19 +95,20 @@ footer span{color:#a50044;font-weight:600;}
 <div class="container">
   <div class="sec-header"><span class="sec-label lbl-gk">Goalkeepers</span><div class="sec-line"></div></div>
   <div class="grid">
-    <div class="card"><div class="avatar av-gk">MTS</div><div class="player-name">Marc-André ter Stegen</div><div class="player-country"><span class="flag">🇩🇪</span>Germany</div><div class="card-footer"><span class="jnum">#1</span><span class="pos-tag pos-gk">GK</span></div></div>
     <div class="card"><div class="avatar av-gk">JG</div><div class="player-name">Joan Garcia</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#13</span><span class="pos-tag pos-gk">GK</span></div></div>
-    <div class="card"><div class="avatar av-gk">AA</div><div class="player-name">Ander Astralaga</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#25</span><span class="pos-tag pos-gk">GK</span></div></div>
+    <div class="card"><div class="avatar av-gk">AA</div><div class="player-name">Wojciech Szczęsny</div><div class="player-country"><span class="flag">🇵🇱</span>Poland</div><div class="card-footer"><span class="jnum">#25</span><span class="pos-tag pos-gk">GK</span></div></div>
+        <div class="card"><div class="avatar av-gk">MTS</div><div class="player-name">Diego Kochen</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#31</span><span class="pos-tag pos-gk">GK</span></div></div>
   </div>
   <div class="sec-header"><span class="sec-label lbl-def">Defenders</span><div class="sec-line"></div></div>
   <div class="grid">
-    <div class="card"><div class="avatar av-def">HF</div><div class="player-name">Héctor Fort</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#2</span><span class="pos-tag pos-def">DEF</span></div></div>
+    <div class="card"><div class="avatar av-def">HF</div><div class="player-name">Andreas Christensen</div><div class="player-country"><span class="flag">🇩🇰</span>Denmark</div><div class="card-footer"><span class="jnum">#15</span><span class="pos-tag pos-def">DEF</span></div></div>
     <div class="card"><div class="avatar av-def">AB</div><div class="player-name">Alejandro Balde</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#3</span><span class="pos-tag pos-def">DEF</span></div></div>
     <div class="card"><div class="avatar av-def">RA</div><div class="player-name">Ronald Araújo</div><div class="player-country"><span class="flag">🇺🇾</span>Uruguay</div><div class="card-footer"><span class="jnum">#4</span><span class="pos-tag pos-def">DEF</span></div></div>
     <div class="card"><div class="avatar av-def">PC</div><div class="player-name">Pau Cubarsí</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#5</span><span class="pos-tag pos-def">DEF</span></div></div>
     <div class="card"><div class="avatar av-def">GM</div><div class="player-name">Gerard Martín</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#18</span><span class="pos-tag pos-def">DEF</span></div></div>
     <div class="card"><div class="avatar av-def">JK</div><div class="player-name">Jules Koundé</div><div class="player-country"><span class="flag">🇫🇷</span>France</div><div class="card-footer"><span class="jnum">#23</span><span class="pos-tag pos-def">DEF</span></div></div>
     <div class="card"><div class="avatar av-def">EG</div><div class="player-name">Eric García</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#24</span><span class="pos-tag pos-def">DEF</span></div></div>
+        <div class="card"><div class="avatar av-def">EG</div><div class="player-name">Joao Cancelo</div><div class="player-country"><span class="flag">ᵖʳ</span>Portugal</div><div class="card-footer"><span class="jnum">#2</span><span class="pos-tag pos-def">DEF</span></div></div>
   </div>
   <div class="sec-header"><span class="sec-label lbl-mid">Midfielders</span><div class="sec-line"></div></div>
   <div class="grid">
@@ -115,9 +116,9 @@ footer span{color:#a50044;font-weight:600;}
     <div class="card"><div class="avatar av-mid">PE</div><div class="player-name">Pedri</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#8</span><span class="pos-tag pos-mid">MID</span></div></div>
     <div class="card"><div class="avatar av-mid">AC</div><div class="player-name">Andreas Christensen</div><div class="player-country"><span class="flag">🇩🇰</span>Denmark</div><div class="card-footer"><span class="jnum">#15</span><span class="pos-tag pos-mid">MID</span></div></div>
     <div class="card"><div class="avatar av-mid">FL</div><div class="player-name">Fermín López</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#16</span><span class="pos-tag pos-mid">MID</span></div></div>
-    <div class="card"><div class="avatar av-mid">DO</div><div class="player-name">Dani Olmo</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#17</span><span class="pos-tag pos-mid">MID</span></div></div>
-    <div class="card"><div class="avatar av-mid">FDJ</div><div class="player-name">Frenkie de Jong</div><div class="player-country"><span class="flag">🇳🇱</span>Netherlands</div><div class="card-footer"><span class="jnum">#20</span><span class="pos-tag pos-mid">MID</span></div></div>
-    <div class="card"><div class="avatar av-mid">FK</div><div class="player-name">Franck Kessié</div><div class="player-country"><span class="flag">🇨🇮</span>Ivory Coast</div><div class="card-footer"><span class="jnum">#21</span><span class="pos-tag pos-mid">MID</span></div></div>
+    <div class="card"><div class="avatar av-mid">DO</div><div class="player-name">Dani Olmo</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#20</span><span class="pos-tag pos-mid">MID</span></div></div>
+    <div class="card"><div class="avatar av-mid">FDJ</div><div class="player-name">Frenkie de Jong</div><div class="player-country"><span class="flag">🇳🇱</span>Netherlands</div><div class="card-footer"><span class="jnum">#21</span><span class="pos-tag pos-mid">MID</span></div></div>
+    <div class="card"><div class="avatar av-mid">FK</div><div class="player-name">Marc Casadó</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#17</span><span class="pos-tag pos-mid">MID</span></div></div>
     <div class="card"><div class="avatar av-mid">MB</div><div class="player-name">Marc Bernal</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#22</span><span class="pos-tag pos-mid">MID</span></div></div>
   </div>
   <div class="sec-header"><span class="sec-label lbl-fwd">Forwards</span><div class="sec-line"></div></div>
@@ -127,7 +128,7 @@ footer span{color:#a50044;font-weight:600;}
     <div class="card"><div class="avatar av-fwd">LY</div><div class="player-name">Lamine Yamal</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#10</span><span class="pos-tag pos-fwd">FWD</span></div></div>
     <div class="card"><div class="avatar av-fwd">RA</div><div class="player-name">Raphinha</div><div class="player-country"><span class="flag">🇧🇷</span>Brazil</div><div class="card-footer"><span class="jnum">#11</span><span class="pos-tag pos-fwd">FWD</span></div></div>
     <div class="card"><div class="avatar av-fwd">MR</div><div class="player-name">Marcus Rashford</div><div class="player-country"><span class="flag">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>England</div><div class="card-footer"><span class="jnum">#14</span><span class="pos-tag pos-fwd">FWD</span></div></div>
-    <div class="card"><div class="avatar av-fwd">PV</div><div class="player-name">Pau Víctor</div><div class="player-country"><span class="flag">🇪🇸</span>Spain</div><div class="card-footer"><span class="jnum">#19</span><span class="pos-tag pos-fwd">FWD</span></div></div>
+    <div class="card"><div class="avatar av-fwd">PV</div><div class="player-name">Roony Bardghji</div><div class="player-country"><span class="flag">sw</span>Sweden</div><div class="card-footer"><span class="jnum">#19</span><span class="pos-tag pos-fwd">FWD</span></div></div>
   </div>
 </div>
 <footer><p>FC Barcelona Squad 2025/26 &nbsp;·&nbsp; Deployed on <span>AWS EC2</span> via <span>Docker + GitHub Actions CI/CD</span> &nbsp;·&nbsp; Built by Basil MK</p></footer>
